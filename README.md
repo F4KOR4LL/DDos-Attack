@@ -15,7 +15,7 @@
 
 ### Ekran Görüntüsü 
 
-![capture](https://prnt.sc/JZBf_V3-LYyp)
+![Tool Görüntüsü][def]
 
 ### YouTube Kanalı
 
@@ -25,3 +25,6 @@ https://www.youtube.com/channel/UCCgy7i_A5yhAEdY86rPOinA
 
 https://www.youtube.com/watch?v=-e3Iia_P7rA
 
+
+
+[def]: "Screenshot_107.png"
