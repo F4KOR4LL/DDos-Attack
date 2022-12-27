@@ -5,7 +5,7 @@
 
 ### İndir Ve Kur Bu Kadar Basit
 
-### git clone https://github.com/Ha3MrX/DDos-Attack
+### git clone https://github.com/F4KOR4LL/DDos-Attack.git
 
 ### cd DDos-Attack
 
@@ -15,7 +15,7 @@
 
 ### Ekran Görüntüsü 
 
-![capture](https://user-images.githubusercontent.com/33704360/38769260-91bfc362-3fb4-11e8-86c6-d5a3ca13c31a.PNG)
+![capture](https://prnt.sc/JZBf_V3-LYyp)
 
 ### YouTube Kanalı
 
