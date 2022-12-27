@@ -15,7 +15,7 @@
 
 ### Ekran Görüntüsü 
 
-![Tool Görüntüsü][https://github.com/F4KOR4LL/DDos-Attack/blob/master/Screenshot_107.png]
+![Tool Görüntüsü](https://github.com/F4KOR4LL/DDos-Attack/blob/master/Screenshot_107.png)
 
 ### YouTube Kanalı
 
