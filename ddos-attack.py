@@ -21,7 +21,7 @@ baytlar = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDos Saldiri Araci")
 print 
-ip = input("IP Hedefi : ")
+ip = int(input("IP Hedefi : "))
 port = int(input("Port numarasını girin: "))
 
 os.system("clear")
